@@ -1,5 +1,80 @@
 @charset "utf-8";
-.header_wrap {
-    outline: gold;
-    padding: 10px;
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+body {
+    font-family:NanumSquare,sans-serif;
+    font-size:14px;
+}
+
+.page-header {
+    background-color:#f5f5f5;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+ 
+    }
+.inner-box{
+    display: flex; 
+    align-items:center;
+    justify-content:space-between;
+    outline :red 1px solid; 
+    max-width:1600px;
+    width:100% ;
+    padding:0 30px;
+    margin : 0 auto;
+    height: 80px;   
+    
+}
+
+.gnb > ul{
+    display:flex;
+    column-gap: 20px;
+
+}
+.gnb .sub-menu {
+    display:none;
+}
+
+.visual_slide {
+
+}
+
+.visual_slide li {
+    height:70vh;
+    min-height:400px;
+    background-color:tomato;
+    background-image:url('../images/visual_1.jpg');
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    color:#fff;
+    display:flex;
+    align-items:center;
+}
+
+.visual_slide  article { 
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    transform:translateY(50px);
+}
+
+.visual_slide h2 {
+    font-size:30px;
+    font-weight: 700;
+    letter-spacing:-0.7px;
+}
+
+.visual_slide .bar {
+    height:1px;
+    background-color:rgba(255,255,255,0.2);
+    margin:20px 0;
+}
+
+.visual_slide .bar .active {
+    background-color:#fff;
+    height:1px;
+    width:20%;
+}
+
+.visual_slide p {
+    
 }
