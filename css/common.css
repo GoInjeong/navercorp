@@ -9,8 +9,8 @@ body {
 .page-header {
     background-color:#f5f5f5;
     box-shadow:0 5px 10px rgba(0,0,0,0.1);
- 
-    }
+}
+
 .inner-box{
     display: flex; 
     align-items:center;
@@ -77,4 +77,160 @@ body {
 
 .visual_slide p {
     
+}
+
+.content {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    outline: 2px solid blue;
+    max-width : 1200px;
+    width:100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.main_content {
+    display:flex;
+    flex-wrap:wrap;
+    width:1200px;
+    height:690px;
+    align-items:center;
+    margin : 20px auto;
+    color:white;
+    text-align: center;
+    
+}
+
+.main_content h3 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 5px;
+    /* display: none; */
+    margin-top: 150px;
+}
+
+.main_content p {
+    /* display: none; */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.robot {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/robot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cloud {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/cloud.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pay {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/pay.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.whale {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/whale.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.works {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/works.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.note {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/note.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.webtoon {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/webtoon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.project {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/project.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.live {
+    width:calc(100% / 3);
+    height:calc(100% / 3);
+    background-image: url('../images/live.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-support h2{
+    font-size:26px;
+    font-weight: 700;
+    text-align: center;
+    margin-top:20px;   
+    padding: 10px;
+}
+
+.main-support p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+    
+}
+
+ dl {
+    display:flex;
+    align-items: center;
+    
+}
+
+.footer-wrap {
+    display : flex;
+    align-items:center;
+    justify-content:space-between;
+    max-width: 1600px;
+    width: 100%;
+    height:160px;
+    background-color: #f8f9fa;
+    padding: 30px;
+    
+}
+
+.footer_menu {
+    display : flex;
+    align-items: center;
+    justify-content:space-between;
+    outline: 2px solid orange;
+    column-gap:10px;  
+    text-align: center;
+
 }
