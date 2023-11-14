@@ -33,6 +33,25 @@ body {
     display:none;
 }
 
+.site_menu {
+    position: relative;
+    width:24px;
+    height:23px;
+    cursor: pointer;
+    background-color:none;
+    border:none;
+    
+}
+.site_menu> span {
+    position: absolute;
+    width:24px;
+    height:2px;
+    background-color: black;
+    
+}
+
+
+
 .visual_slide {
 
 }
@@ -192,7 +211,7 @@ body {
 
 .main-support h2{
     font-size:26px;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
     margin-top:20px;   
     padding: 10px;
