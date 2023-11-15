@@ -8,7 +8,7 @@
     text-decoration: none;
      color: inherit;
 }
-ul, ol ,li { 
+ul, ol ,li,dl { 
     list-style: none;
 }
 
