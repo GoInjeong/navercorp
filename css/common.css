@@ -38,8 +38,7 @@ body {
     height:23px;
     cursor: pointer;
     background-color:none;
-    border:none;
-    
+    border:none;   
 }
 
 .site_map:hover .a {
@@ -135,8 +134,9 @@ body {
     width:1163px;
     /* height:1700px; */
     height:100%;
-    outline:2px solid red;
+    /* outline:2px solid red; */
     margin: 0 auto;
+    
 }
 
 .content {
@@ -149,33 +149,48 @@ body {
     height: 200px;
     margin-top:69px;
     column-gap: 5px;
+    position:relative;
+    
 }
 
 .content li {
 
     width:210px;
     height:179px;
-    outline: 2px solid olive;
-
+    /* outline: 2px solid olive; */
+    /* text-overflow: ellipsis; */
 }
 
 .content h2 {
-
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 800;
     text-align: start;
     color: #212121;
     margin-bottom: 20px;
+}
 
+.content a:hover {
+    text-decoration: underline;
+    
+}
+.content a {
+    font-weight: 800;
 }
 
 .content_title{
     text-align: start;
-}
-.content_title a{
-    margin-bottom: 0;
+    margin: 31px 0 30px;
+    font-size: 15px;
+    font-weight: 800;
+    color:#333333;
+    height:76px;  
 }
 
+.news_middle{    
+    position: absolute;
+    top: 85px;
+    color:#878890;    
+}
 
 .main_content {
     display:flex;
@@ -187,7 +202,7 @@ body {
     color:white;
     text-align: center;
     margin-top: 90px;
-    
+    position:relative;    
 }
 
 .main_content h3 {
@@ -204,6 +219,21 @@ body {
     font-weight: 600;
 }
 
+.dimmed {
+
+    width:calc(100% / 3);
+    height: 259px;
+    background-color: #3A3E5080;
+    background-size: cover;
+    position:absolute;
+    opacity: 0;        
+}
+
+.main_content :hover{
+    opacity: 100;
+    transition:200ms;
+       
+}
 
 .robot {
     width:calc(100% / 3);
@@ -392,7 +422,7 @@ body {
     justify-content: space-between;
     column-gap: 5px;
     padding: 0 30px;
-    outline: 1px solid gold;
+    /* outline: 1px solid gold; */
     
 }
 
@@ -408,10 +438,10 @@ body {
 .footer-rights {
     position:absolute;
     right: 500px;
-    outline: 1px solid violet;
+    /* outline: 2px solid violet; */
 }
 
 .affiliates {
     padding-right: 26px;
-    outline: 1px solid greenyellow;
+    /* outline: 2px solid greenyellow; */
 }
