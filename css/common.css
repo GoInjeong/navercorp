@@ -220,20 +220,19 @@ body {
 }
 
 .dimmed {
-
     width:calc(100% / 3);
     height: 259px;
     background-color: #3A3E5080;
     background-size: cover;
-    position:absolute;
+    position: absolute;
     opacity: 0;        
 }
 
 .main_content :hover{
     opacity: 100;
-    transition:200ms;
-       
+    transition:500ms;
 }
+
 
 .robot {
     width:calc(100% / 3);
