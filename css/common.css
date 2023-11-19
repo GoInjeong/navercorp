@@ -15,7 +15,7 @@ body {
     display: flex; 
     align-items:center;
     justify-content:space-between;
-    outline :red 1px solid; 
+    /* outline :red 1px solid;  */
     max-width:1600px;
     width:100% ;
     padding:0 30px;
@@ -140,7 +140,7 @@ body {
 }
 
 .content {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content:space-between;
     /* outline: 2px solid blue; */
@@ -148,17 +148,16 @@ body {
     width:100%;
     height: 200px;
     margin-top:69px;
-    column-gap: 5px;
-    position:relative;
-    
+    position: relative;    
 }
 
 .content li {
 
-    width:210px;
+    width:250px;
     height:179px;
-    /* outline: 2px solid olive; */
     /* text-overflow: ellipsis; */
+    border-right: 0.5px solid #878890;
+    padding-right: 20px;
 }
 
 .content h2 {
@@ -202,7 +201,8 @@ body {
     color:white;
     text-align: center;
     margin-top: 90px;
-    position:relative;    
+    position:relative;  
+
 }
 
 .main_content h3 {
@@ -224,15 +224,54 @@ body {
     height: 259px;
     background-color: #3A3E5080;
     background-size: cover;
-    position: absolute;
+    position:absolute;
     opacity: 0;        
 }
 
-.main_content :hover{
-    opacity: 100;
+
+.dimmed:hover {
     transition:500ms;
+    opacity: 100; 
+    transform: translateY(-50px);
 }
 
+.robot .dimmed {
+    position: absolute;
+    top: 50px;      
+}
+.cloud .dimmed {
+    position: absolute;
+    top: 50px;      
+}
+.pay .dimmed {
+    position: absolute;
+    top: 50px;      
+}
+
+.whale .dimmed {
+    position: absolute;
+    top: 309px;      
+}
+.works .dimmed {
+    position: absolute;
+    top: 309px;      
+}
+.note .dimmed {
+    position: absolute;
+    top: 309px;      
+}
+.webtoon .dimmed {
+    position: absolute;
+    top: 568px;      
+}
+.project .dimmed {
+    position: absolute;
+    top: 568px;      
+}
+.live .dimmed {
+    position: absolute;
+    top: 568px;      
+}
 
 .robot {
     width:calc(100% / 3);
@@ -338,6 +377,8 @@ body {
 .article_box li{
     width:209px;
     height:240px;
+    border-right: 0.2px solid gray;
+    padding-right: 20px;;
 }
 
 .image_1 {
