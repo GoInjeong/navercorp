@@ -20,3 +20,12 @@ h1,h2,h3,h4,h5,h6,strong {
 i, em, address {
     font-style:inherit;
 }
+
+html,body {
+    height:100%;
+}
+
+body {
+    font-family:NanumSquare,sans-serif;
+    font-size:14px;
+}
