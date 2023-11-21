@@ -18,11 +18,17 @@
 
 .gnb > ul{
     display:flex;
-    column-gap: 20px;
+    column-gap: 50px;
 }
 
 .gnb .sub-menu {
     display:none;
+}
+
+.gnb >ul h2 {
+    font-weight: 800;
+    font-size: 15px;
+    
 }
 
 .site_map {
@@ -35,20 +41,20 @@
 }
 
 .site_map:hover .a {
-    background-color: green;
+    background-color:#1ec545;
     top:50%;
     transform: rotate(45deg); 
     transition:400ms;   
 }
 
 .site_map:hover .b {
-    background-color: green;
+    background-color: #1ec545;
     opacity: 0;   
     transition:400ms;   
 }
 
 .site_map:hover .c {
-    background-color: green;
+    background-color: #1ec545;
     top:50%;
     transform: rotate(-45deg);
     transition:400ms;   

@@ -201,6 +201,12 @@
     color:#878890;    
 }
 
+.news_middle > span {
+    width :16px;
+    height:16px;
+    background-color: green;
+    display:block;
+}
 
 .service_list {
     display:flex;
