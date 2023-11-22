@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navercorp Clone Coding</title> 
+    <style>
+        .wrap { outline:1px solid red; height:100px;}
+        .wrap .a { background-color:olive;}
+        .wrap .b{ background-color:tomato;}
+        .wrap .c { background-color:dodgerblue;}
+        .wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .position-wrap {
+            outline:1px solid blue;
+            background:gold;
+            margin:100px auto;
+            position:relative;
+            width:100%;max-width:500px;
+            height:500px;
+        }
+
+        .position-wrap .item {
+            position:absolute;
+            width:300px;
+            background-color:red;
+        }
+
+        .position-wrap .a {
+            left:0; top:0;
+        }
+        .position-wrap .b {
+            left:50%;top:50%;
+            transform:translate(-50%,-50%);
+
+        }
+        .position-wrap .c {
+            right:0; bottom:0;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="thumbs a">
+        <p>text 1</p>
+    </div>
+    <div class="thumbs b">
+        <p>text 1</p>
+    </div>
+
+      <div class="wrap">
+        <div class="a item">A</div>
+        <div class="b item">B</div>
+        <div class="c item">C</div>
+      </div>   
+
+      <div class="position-wrap">
+        <div class="a item">A</div>
+        <div class="b item">B</div>
+        <div class="c item">C</div>
+      </div>
+</body>
+</html>
