@@ -1,0 +1,48 @@
+.page-header{
+    background-color: transparent;
+    box-shadow: none;
+    z-index:9999;
+}
+
+section {
+    margin-top: 64px;
+    max-width:1120px;
+    outline: 1px solid blue;
+    display: block;
+    }
+
+.company_information p{
+    padding: 0 0 25px;
+    font-size:20px;
+    color:#333;
+    line-height: 32px;
+    letter-spacing:-0.2;
+    text-align:center;
+}
+
+.company_information h2 {
+    color:#212121;
+    text-align:center;
+    font-size:42px;
+    padding:0 0 30px;
+    font-weight: 800;
+}
+
+.naver_info dt{
+    vertical-align:top;
+    display:inline-block;
+    color:#333;
+    width:263px;
+    outline:1px solid red;
+    font-size:20px;
+    line-height:28px;
+}
+
+.naver_info dd{
+    color:#606167;
+    font-size:15px;
+    width:857px;
+    vertical-align: top;
+
+
+}
